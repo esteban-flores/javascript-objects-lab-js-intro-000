@@ -8,6 +8,8 @@ var recipes = {key: value};
 //2) does not modify the original object, but rather returns a clone with the new data
 //3) returns an object with an updated key value pair
 function updateObjectWithKeyAndValue(object, key, value){
+  var newObject = {};
 
-  return object;
+
+  return newObject;
 }
