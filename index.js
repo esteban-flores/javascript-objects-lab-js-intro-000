@@ -11,7 +11,9 @@ function updateObjectWithKeyAndValue(object, key, value){
   var newObject = {}; //used to clone the inputted object
   newObject = object;
 
-  newObject = Object.assign({}, newObject, { [key]: value}); // updates newObject with inputted key and value
+  // updates newObject with inputted key and value
+  newObject = Object.assign({}, newObject, { [key]: value});
 
+  //returns a new object with updated key and value
   return newObject;
 }
