@@ -1,5 +1,5 @@
 //Define an object called recipes
-var recipes = {};
+var recipes = {key: value};
 
 //objects can push, pop, shift, unshift,
 
